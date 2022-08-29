@@ -1,1 +1,3 @@
 # Taiwan-stock-prediction
+
+利用twstock模組在台灣證券交易所收集台股資料，搭配Airflow自動化排程收集與處理ETL後存入資料，接著建立循環神經網路模型(RNN)及訓練，最後將訓練好的模型進行台股股價預測
